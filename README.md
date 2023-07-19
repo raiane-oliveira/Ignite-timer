@@ -11,7 +11,7 @@
 </p>
 
 <h4 align="center"> 
-	🚧  Ignite Timer 🗃️ Developing...  🚧
+	🚧  Ignite Timer 🗃️ Completed  🚧
 </h4>
 
 <p align="center">
@@ -26,27 +26,33 @@ This Pomodoro application allows you to add projects, set and start a Pomo secti
 
 <img src="https://imgur.com/8i9q1Gt.png" />
 
-It was developed in Rocketseat's Ignite course and has light and dark themes.
+It was developed in Rocketseat's Ignite course.
 
 ## 🪸 Features
 
-- [ ] Set projects and duration of pomo section in the form 
-- [ ] Start and Pause pomodoro timer
-- [x] Navigate between pages with React Router DOM 
-- [ ] Keep track of the project's history
+- [x] Set projects and duration of the pomo section in the form 
+- [x] Start and Pause Pomodoro timer
+- [x] Navigate between pages with React Router
+- [x] Keep track of the project's history
+- [x] Display task suggestions of preview tasks on the form
+- [x] Save the current timer in the local storage
 
 ## 🛠 Tech Stack
 
 - React
   - `React Router`
   - `React Hook Forms`
+  - `Zod`
+  - `Immer`
+  - `date-fns`
 - TypeScript
 - Styled Components
 - [Phosphor Icons](https://phosphoricons.com/)
+- ESLint
 
 ## 📚 Learnings
 
-I've been learning a lot about Styled Components, how to deal with themes in Styled Components, and how better determine types in TypeScript.
+I've learned a lot about Styled Components, dealing with themes and global styles, and better determining types in TypeScript. Plus, I've learned how to deal better with reducers and the React Context API.
 
 
 
