@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a  href="https://kanbandev.vercel.app/">
+  <a  href="https://raianeignitetimer.vercel.app/">
     <img src="src/assets/logoIgnite.svg" alt="" />
     Ignite Timer
   </a>
