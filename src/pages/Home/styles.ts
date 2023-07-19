@@ -2,6 +2,7 @@ import { styled } from 'styled-components'
 
 export const HomeContainer = styled.main`
   flex: 1;
+  padding: 5rem 0 9rem 0;
 
   display: grid;
   place-content: center;
@@ -11,6 +12,13 @@ export const HomeContainer = styled.main`
     flex-direction: column;
     align-items: center;
     gap: 3.5rem;
+  }
+
+  @media (max-width: 490px) {
+    padding-bottom: 5rem;
+    form {
+      gap: 2.5rem;
+    }
   }
 `
 

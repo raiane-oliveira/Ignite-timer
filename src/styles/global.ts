@@ -24,4 +24,10 @@ export const GlobalStyle = createGlobalStyle`
   button {
     font: 400 1rem "Inter", sans-serif;
   }
+
+  @media (max-width: 610px) {
+    :root {
+      font-size: 85%;
+    }
+  }
 `

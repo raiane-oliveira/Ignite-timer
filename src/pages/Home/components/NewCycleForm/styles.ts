@@ -1,5 +1,4 @@
-
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const FormContainer = styled.div`
   width: 100%;
@@ -11,6 +10,10 @@ export const FormContainer = styled.div`
   color: ${(props) => props.theme['gray-100']};
   font-size: 1.125rem;
   font-weight: bold;
+
+  @media (max-width: 610px) {
+    flex-direction: column;
+  }
 `
 
 const BaseInput = styled.input`

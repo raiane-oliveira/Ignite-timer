@@ -11,12 +11,17 @@ export const HistoryContainer = styled.main`
     font-size: 1.5rem;
     color: ${(props) => props.theme['gray-100']};
   }
+
+  @media (max-width: 630px) {
+    padding: 3.5rem 0;
+  }
 `
 
 export const HistoryList = styled.div`
   flex: 1;
   overflow: auto;
   margin-top: 2rem;
+  max-height: 30rem;
 
   table {
     width: 100%;
