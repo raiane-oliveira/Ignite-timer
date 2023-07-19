@@ -11,7 +11,7 @@
 </p>
 
 <h4 align="center"> 
-	🚧  Ignite Timer 🗃️ Completed  🚧
+	✔️ Ignite Timer - Completed  ✔️
 </h4>
 
 <p align="center">
