@@ -3,8 +3,11 @@ import { FormContainer, TaskInput, MinutesAmountInput } from './styles'
 import { useFormContext } from 'react-hook-form'
 
 export function NewCycleForm() {
-  const { activeCycle } = useCyclesContext()
+  const { activeCycle, cycles } = useCyclesContext()
   const { register } = useFormContext()
+  const taskWithoutDuplicationSuggestions = Array.from(
+    new Set(cycles.map((cycle) => cycle.task)),
+  )
 
   return (
     <FormContainer>
@@ -20,7 +23,12 @@ export function NewCycleForm() {
       />
 
       <datalist id="task-suggestions">
-        <option value="Projeto 1">Projeto 1</option>
+        {cycles.length &&
+          taskWithoutDuplicationSuggestions.map((task) => (
+            <option value={task} key={task}>
+              {task}
+            </option>
+          ))}
       </datalist>
 
       <label htmlFor="minutesAmount">Durante</label>
